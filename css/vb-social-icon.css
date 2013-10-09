@@ -1,0 +1,5 @@
+@import url('../fonts/socialico/font.css');
+[class*="social-"] { font-family: 'Conv_Socialico';	font-size: 3em; }
+[class*="social-"]:before { display: block; }
+.social-icon-facebook:before { content: 'F';  }
+.social-icon-twitter-bird:before { content: 'L'; }

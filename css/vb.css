@@ -1,0 +1,144 @@
+@import url('vb-social-icon.css');
+
+/* main as main can get */
+p { padding: 0px; margin: 0px; }
+h1 { line-height: 2em; font-size: 1.8em; margin: 0; }
+h2 { line-height: 1.6em; font-size: 1.3em; margin: 0; }
+h3 { }
+h4 { }
+h5 { }
+
+/* header */
+#header { clear: both;}
+
+/* logo */
+#logo { background-repeat: no-repeat; background-position: center center; background-color: transparent; display: block; }
+#logo span { display: none; }
+
+/* main-menu */
+#main-menu { clear: both; display: block; content: "";  display: table; width: 100%; clear: both; *zoom: 1;}
+#main-menu ul,
+#main-menu ul li { list-style: none; padding: 0px; margin: 0px; }
+#main-menu ul { position: relative; }
+#main-menu ul li { float: left; display: inline-block; white-space: nowrap;}
+#main-menu ul li a { display: block; }
+#main-menu ul li ul { display: none; position: absolute; }
+#main-menu ul li:hover > ul { display: block; }
+#main-menu ul li ul li { float: none; display: block; }
+#main-menu ul li ul li ul { position: absolute; left: 100%; top: 0px; width: auto;}
+
+/* page-header */
+#page-header {} 
+#page-header .breadcrumb {} 
+#page-header .breadcrumb ol, 
+#page-header .breadcrumb ol li { list-style: none; padding: 0px; margin: 0px;} 
+#page-header .breadcrumb ol {  } 
+#page-header .breadcrumb ol li { float: left; padding-right: 5px; }
+#page-header .breadcrumb ol li:after { content: ' \00BB '; }
+#page-header .breadcrumb ol li a { color: inherit; font-size: 0.8em; }
+#page-header .title { clear: both; margin: 0px; padding: 0px; line-height: 1.2em;}
+/* footer */
+#footer { }
+#footer .block { float: left; }
+#footer ul.menu,
+#footer ul.menu li { list-style: none; padding: 0px; margin: 0px;}
+#footer ul.menu li a { color: inherit;}
+
+/* bottom */
+.bottom { clear: both; font-size: 0.8em;  }
+.bottom a { color: inherit; }
+
+/* icons */
+[class*="icon"] { display: inline-block; min-width: 20px; min-height: 20px; }
+[class*="icon-"] span { display: none; }
+
+/* forms */
+/* forms */
+input,
+textarea,
+select { max-width: 500px; }
+textarea,
+select,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] { 
+    outline: none;
+    padding: 7px 9px;
+    border-radius: 4px;
+    background-color: #ffffff; border: 1px solid #cccccc;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+}
+textarea { resize:none; }
+textarea:focus,
+select:focus ,
+input[type="text"]:focus ,
+input[type="password"]:focus ,
+input[type="datetime"]:focus ,
+input[type="datetime-local"]:focus ,
+input[type="date"]:focus ,
+input[type="month"]:focus ,
+input[type="time"]:focus ,
+input[type="week"]:focus ,
+input[type="number"]:focus ,
+input[type="email"]:focus ,
+input[type="url"]:focus ,
+input[type="search"]:focus ,
+input[type="tel"]:focus ,
+input[type="color"]:focus {
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+/* button: default */
+.button, input[type="submit"], button, input[type="button"] { 
+    cursor: pointer;
+    border: none;
+    padding: 10px 25px;
+    background: #dddddd;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2), inset 0px 2px 0px 0px rgba(255, 255, 255, 0.5);
+    transition: all 0.5s; -webkit-transition: all 0.5s;
+}
+.button:hover, input[type="submit"]:hover, button:hover, input[type="button"]:hover {
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 0px 0px rgba(255, 255, 255, 0.5);
+}
+.button:active, input[type="submit"]:active, button:hover, input[type="button"]:hover {
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 2px 2px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
